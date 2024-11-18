@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            height: 100%;
+        }
+        header{
+            background-color: red;
+            height: 300px;
+            position: fixed;
+            width: 100%;
+        }
+        h1{
+            margin: 0;
+            padding: 1em;
+            border: 5px solid brown;
+        }
+        body{
+            margin: 0;
+            height: 100%;
+        }
+        main{
+            background-color: green;
+            height: 1000px;
+        }
+        footer{
+            background-color: blue;
+            height: 300px;
+            position: relative;
+        }
+        p{
+            padding: 2em;
+            margin: 0;
+            color: pink;
+            border-width: 15px;
+            border-style: double;
+            border-color: aqua;
+        }
+        #circulo, #circulo1{
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            border-radius: 100%;
+            top: 0px;
+            left: 0px;
+        }
+        #logo, #logo1{
+            width: 400px;
+            height: 300px;
+            position: relative;
+            right: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <div id="circulo"></div>
+        </div>
+        <h1>Position types</h1>
+    </header>
+    <main>
+        <p>This is the main</p>
+    </main>
+    <footer>
+        <p>This os the footer</p>
+        <div id="logo1">
+            <div id="circulo1"></div>
+        </div>
+    </footer>
+</body>
+</html>
